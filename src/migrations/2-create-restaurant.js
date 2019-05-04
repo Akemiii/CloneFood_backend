@@ -14,9 +14,6 @@ module.exports = {
       description: {
         type: Sequelize.TEXT
       },
-      status: {
-        type: Sequelize.BOOLEAN
-      },
       delivery_tax: {
         type: Sequelize.FLOAT
       },
@@ -48,6 +45,10 @@ module.exports = {
       },
       reference: {
         type: Sequelize.STRING
+      },
+      status:{
+        type: Sequelize.ENUM('closed','open'),
+        defaultValue:'closed'
       },
       createdAt: {
         allowNull: false,

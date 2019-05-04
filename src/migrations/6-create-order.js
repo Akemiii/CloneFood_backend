@@ -28,6 +28,9 @@ module.exports = {
       total_value:{
         type:Sequelize.STRING,
       },
+      status:{
+        type:Sequelize.ENUM('waiting','delivered')
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
