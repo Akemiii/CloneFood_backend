@@ -14,7 +14,8 @@ Para inicializar utilizar yarn start ou npm start
 
 # Rotas API
 
-```dif
+```diff
+- GET
 + GET
 
 ```
