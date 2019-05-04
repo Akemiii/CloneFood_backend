@@ -1,6 +1,14 @@
 const express = require('express');
 const router = express.Router();
 
+//Rota inicial da api
+router.get('/', (req,res) =>{
+    res.status(200).send({
+        title: 'Clone Food API',
+        version: '0.0.1'
+    });
+});
+
 //Category
 const CategoryController = require('./src/Controllers/CategoryController');
 const RestaurantController = require('./src/Controllers/RestaurantController');

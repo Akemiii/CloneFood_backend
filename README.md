@@ -9,6 +9,9 @@ Para instalar as dependências utilizar yarn install --save ou npm install --sav
 
 Para inicializar utilizar yarn start ou npm start
 
+# Modelo entidade relacionamento
+![alt MER](https://i.ibb.co/Ky2LpSQ/db.png)
+
 # Lista de tarefas
 
 - [x] Criar Modelos
