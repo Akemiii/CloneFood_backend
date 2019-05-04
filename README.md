@@ -14,11 +14,15 @@ Para inicializar utilizar yarn start ou npm start
 
 # Rotas API
 
-GET Categorias#index
+```html
 
-- baseurl/categories
+<span color="Green">GET</span> Categorias#index
 
-Response
+baseurl/categories
+
+```
+
+Exemplo de resposta
 
 ```json
 
