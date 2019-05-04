@@ -12,6 +12,13 @@ Para inicializar utilizar yarn start ou npm start
 # Modelo entidade relacionamento
 ![MER clone food](https://i.ibb.co/Ky2LpSQ/db.png)
 
+# Rotas API
+
+```dif
++ GET
+
+```
+
 # Lista de tarefas
 
 - [x] Criar Modelos
