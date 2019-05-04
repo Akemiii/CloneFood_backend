@@ -1,11 +1,11 @@
 # CloneFood
 Serviço backend inspirado no ifood
 
-# Instação
+# Instalar
 
 Para instalar as dependências utilizar yarn install --save ou npm install --save
 
-# Inicialização
+# Inicializar
 
 Para inicializar utilizar yarn start ou npm start
 
