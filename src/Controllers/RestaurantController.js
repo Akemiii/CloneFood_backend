@@ -1,5 +1,6 @@
 const {restaurant} = require('../models');
-
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
 
 //Index mostra todos os restaurantes
 exports.index = async (req,res) =>{
@@ -13,22 +14,28 @@ exports.index = async (req,res) =>{
 //Search pesquisa restaurantes por palavra chave
 exports.search = async (req,res) =>{
 
-   const { name } = req.body;
+   const { name } = req.params;
 
     rest = await restaurant.findOne({
         where:{
             name:{
-                $like: '%' + name + '%'
+                [Op.like]: '%' + name + '%'
             }
         }
     });
-
-    console.log(rest);
 
     res.send(rest);
 }
 
 //Show pesquisa um restaurante especifico por um id
 exports.show = async (req,res) =>{
+    const {id} = req.params;
+
+    rest = await restaurant.findOne({
+        where:{
+            id
+        }
+    });
     
+    res.send(rest);
 }

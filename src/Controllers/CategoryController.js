@@ -9,9 +9,12 @@ exports.index = async (req,res) => {
 }
 
 exports.show = async (req,res) => {
+
+    const {id} = req.params;
+
     cat = await Categories.findOne({
         where:{
-            id:req.params.id
+            id
         },
         attributes:['title']
     });
