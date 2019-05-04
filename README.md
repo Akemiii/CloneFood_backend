@@ -14,9 +14,21 @@ Para inicializar utilizar yarn start ou npm start
 
 # Rotas API
 
-```diff
-- GET
-+ GET
+GET Categorias#index
+
+- baseurl/categories
+
+Response
+
+```json
+
+{
+    "categories":[
+        "id": 1,
+        "title":"Italiana",
+        "image_url": "baseurl/storage/eyaskaoa3244
+    ]
+}
 
 ```
 
