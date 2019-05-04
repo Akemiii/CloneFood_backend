@@ -14,13 +14,10 @@ Para inicializar utilizar yarn start ou npm start
 
 # Rotas API
 
-```html
-
 <span color="Green">GET</span> Categorias#index
 
 baseurl/categories
 
-```
 
 Exemplo de resposta
 
@@ -28,9 +25,9 @@ Exemplo de resposta
 
 {
     "categories":[
-        "id": 1,
-        "title":"Italiana",
-        "image_url": "baseurl/storage/eyaskaoa3244
+        "id" : 1,
+        "title" : "Italiana",
+        "image_url" : "baseurl/storage/eyaskaoa3244"
     ]
 }
 
