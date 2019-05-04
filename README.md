@@ -14,7 +14,7 @@ Para inicializar utilizar yarn start ou npm start
 
 # Rotas API
 
-<span style="color:green">GET</span> Categorias#index
+<span color="green">GET</span> Categorias#index
 
 baseurl/categories
 
