@@ -10,7 +10,7 @@ Para instalar as dependências utilizar yarn install --save ou npm install --sav
 Para inicializar utilizar yarn start ou npm start
 
 # Modelo entidade relacionamento
-![alt MER](https://i.ibb.co/Ky2LpSQ/db.png)
+![MER clone food](https://i.ibb.co/Ky2LpSQ/db.png)
 
 # Lista de tarefas
 
@@ -18,6 +18,8 @@ Para inicializar utilizar yarn start ou npm start
 - [x] Criar Relacionamentos
 - [x] Criar Controllers
 - [x] Criar Rotas
+- [ ] Atualizar MER
+- [ ] Melhorar Modelos
 - [ ] Upload de imagens
 - [ ] Geolocalização
 - [ ] Cadastrar massa para teste
