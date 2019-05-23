@@ -15,6 +15,7 @@ router.get('/', (req,res) =>{
 const CategoryController = require('./src/Controllers/CategoryController');
 const RestaurantController = require('./src/Controllers/RestaurantController');
 const OrderController = require('./src/Controllers/OrderController');
+const ProductCategoryController  = require('./src/Controllers/ProductCategoryController');
 
 //Categorias
 router.get('/categories', CategoryController.index);
@@ -31,6 +32,10 @@ router.patch('/restaurants/:id', RestaurantController.openClose);
 //Orders
 router.post('/order', OrderController.create);
 router.get('/order/:id', OrderController.show);
+
+//Product category
+router.post('/product_category', ProductCategoryController.create);
+
 
 
 //Products
