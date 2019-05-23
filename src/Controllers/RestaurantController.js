@@ -10,7 +10,7 @@ exports.create = async (req,res)=>{
 
 exports.index = async (req,res) =>{
     rest = await restaurant.findAll({
-        
+
     });
 
     res.send(rest);
@@ -33,6 +33,22 @@ exports.search = async (req,res) =>{
 
 exports.update = async(req,res)=>{
 
+}
+
+exports.openClose = async (req, res)=>{
+
+    const {status} = req.body;
+    const {id} = req.params;
+
+    const rest = await restaurant.update({
+        status
+    },{
+        where:{
+            id
+        }
+    });
+
+    res.send(rest);
 }
 
 exports.delete = async(req, res)=>{
