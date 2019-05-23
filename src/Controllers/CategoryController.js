@@ -1,11 +1,23 @@
 const {Categories} = require('../models');
 
+exports.create = async (req, res)=>{
+    
+}
+
 exports.index = async (req,res) => {
     cats = await Categories.findAll({
         attributes:['title']
     });
 
     res.send(cats);
+}
+
+exports.update = async (req,res) =>{
+
+}
+
+exports.delete = async (req,res)=>{
+
 }
 
 exports.show = async (req,res) => {

@@ -8,6 +8,14 @@ exports.create = async (req,res) => {
     res.send(order);
 }
 
+exports.index = async (req,res) =>{
+
+}
+
+exports.delete = async(req, res)=>{
+    
+}
+
 exports.show = async (req,res) => {
 
     const {id} = req.params;
