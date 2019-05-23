@@ -1,7 +1,9 @@
 const {Categories} = require('../models');
 
 exports.create = async (req, res)=>{
-    
+    cat = await Categories.create(req.body);
+
+    res.send(cat);
 }
 
 exports.index = async (req,res) => {

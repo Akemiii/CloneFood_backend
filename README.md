@@ -33,6 +33,32 @@ Exemplo de resposta
 
 ```
 
+
+POST Restaurants#create
+
+baseurl/restaurants
+
+Exemplo envio de requisição
+
+```json
+
+{
+    "name": 'nome restaurante',
+    "description": 'descrição',
+    "delivery_tax": 'taxa de entrega',
+    "category_id": 'id categoria',
+    "city": 'cidade',
+    "state": 'estado',
+    "neighborhood": 'bairro',
+    "street": 'rua',
+    "number": 'número',
+    "Complement": 'complemento',
+    "reference": 'referencia',
+}
+
+```
+Exemplo de resposta
+
 # Lista de tarefas
 
 - [x] Criar Modelos

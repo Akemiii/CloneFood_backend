@@ -3,12 +3,14 @@ const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
 
 exports.create = async (req,res)=>{
+    rest = await restaurant.create(req.body);
 
+    res.send(rest);
 }
 
 exports.index = async (req,res) =>{
     rest = await restaurant.findAll({
-
+        
     });
 
     res.send(rest);
