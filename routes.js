@@ -23,6 +23,7 @@ router.post('/categories', CategoryController.create);
 
 //Restaurantes
 router.get('/restaurants', RestaurantController.index);
+router.post('/restaurants', RestaurantController.create);
 router.get('/restaurants/:id', RestaurantController.show);
 router.get('/restaurants/search/:name', RestaurantController.search);
 

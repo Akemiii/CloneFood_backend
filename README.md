@@ -45,8 +45,8 @@ Exemplo envio de requisição
 {
     "name": 'nome restaurante',
     "description": 'descrição',
-    "delivery_tax": 'taxa de entrega',
-    "category_id": 'id categoria',
+    "delivery_tax": '9.99',
+    "category_id": '4',
     "city": 'cidade',
     "state": 'estado',
     "neighborhood": 'bairro',
